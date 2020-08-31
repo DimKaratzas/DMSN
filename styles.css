@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    }
+  
+  a {
+    color: black;
+  }
+  
+  h2, h3, h4, p {
+    margin: 0;
+    padding: 1em;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+  }
+  
+  .navbar li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+  }
+  
+  img {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .food, .place, .activity {
+    display: inline-flex;
+  }
+  
+  .mission {
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1505855788694-023053764ae5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1385&q=80");
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 35px;
+  }
+  
+  
+  
+  
+  .mission .content {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    opacity: 0.5;
+  
+  }
+  
+  .team {
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1480619110243-c94e677a8d2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .team h3, p {
+    color: #193140;
+    padding: 10px;
+    margin: 10px;
+  
+  }
+  
+  .teamate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+  }
+  
+  .contact {
+    background-image: url("https://www.animeoutline.com/wp-content/uploads/2019/05/anime_sharp_teeth_smiling_mouth_drawing.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 20px;
+    opacity: 0.7;
+  }
+  
+  .contact h5 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+    padding-top: 50px;
+    color: red;
+  }
+  
+  
+  
+  
+  
+  
+  
